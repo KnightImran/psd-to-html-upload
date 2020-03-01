@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,600,700,900|Ubuntu:300,400,500,700&display=swap');
+/*font-family: 'Playfair Display', 'Ubuntu', serif;*/
+*{
+    margin: 0;
+    padding: 0;
+}
+header{ 
+width: 90%;
+margin: auto;
+margin-top: 40px;
+display: flex;
+justify-content: space-between;
+}
+.logo{
+
+}
+.logo img{
+  
+}
+.manu-bar {
+    width: 40%;
+}
+.manu-bar ul{
+    display: flex;
+    justify-content: space-between;
+}
+.manu-bar ul li{
+list-style: none;
+}
+.manu-bar ul li a{
+text-decoration: none;
+text-transform: uppercase;
+font-family: 'Playfair Display', serif;
+color: #626262;
+}
+.banner{
+
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.banner img{
+    width: 100%;
+
+}
+/*Photodiary section start*/
+.photodiary{
+    width: 80%;
+    margin: auto;
+    
+}
+
+.photodiary h5{
+    margin-top: 20px;
+margin-bottom: 20px;
+color: #cdc9bf;
+font-size: 14px;
+text-transform: uppercase;
+font-weight: 400;
+font-family: Ubuntu ;
+}
+
+.photodiary h1{
+color: #626262;
+font-size: 30px;
+ font-weight: 400;
+ margin-bottom: 30px;
+ font-family: 'Playfair Display', serif;
+}
+.photodiary p{
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    color: #cdc9bf;
+    line-height: 1.8;
+}
+/*Photodiary section end*/
+
+/*lifestyle section start*/
+.lifestyle{
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+justify-content: space-between;
+
+}
+.lifestyle-one{
+width: 45%;
+}
+.lifestyle-one img{
+width: 100%;
+}
+.lifestyle-one h1{
+    color: #626262;
+    font-size: 30px;
+     font-weight: 400;
+     margin-bottom: 30px;
+     font-family: 'Playfair Display', serif;
+}
+.lifestyle-one h5{
+    margin-top: 20px;
+margin-bottom: 20px;
+color: #cdc9bf;
+font-size: 14px;
+text-transform: uppercase;
+font-weight: 400;
+font-family: Ubuntu ;
+}
+.lifestyle-one p{
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    color: #cdc9bf;
+    line-height: 1.8;
+}
+
+.lifestyle-two{
+    width: 45%;
+
+}
+
+.lifestyle-two img{
+    width: 100%;
+}
+.lifestyle-two h1{
+    color: #626262;
+    font-size: 30px;
+     font-weight: 400;
+     margin-bottom: 30px;
+     font-family: 'Playfair Display', serif;
+}
+.lifestyle-two h5{
+    margin-top: 20px;
+margin-bottom: 20px;
+color: #cdc9bf;
+font-size: 14px;
+text-transform: uppercase;
+font-weight: 400;
+font-family: Ubuntu ;
+}
+.lifestyle-two p{
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    color: #cdc9bf;
+    line-height: 1.8;
+}
+
+/*lifestyle section end*/
+
+/*Photodiary-2 section start*/
+
+.Photodiary-2{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+justify-content: space-between;
+margin-bottom: 75px;
+
+}
+.Photodiary-2-one{
+width: 45%;
+}
+.Photodiary-2-one img{
+width: 100%;
+}
+.Photodiary-2-one h1{
+    color: #626262;
+    font-size: 30px;
+     font-weight: 400;
+     margin-bottom: 30px;
+     font-family: 'Playfair Display', serif;
+}
+.Photodiary-2-one h5{
+    margin-top: 20px;
+margin-bottom: 20px;
+color: #cdc9bf;
+font-size: 14px;
+text-transform: uppercase;
+font-weight: 400;
+font-family: Ubuntu ;
+}
+.Photodiary-2-one p{
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    color: #cdc9bf;
+    line-height: 1.8;
+}
+
+.Photodiary-2-two{
+    width: 45%;
+
+}
+
+.Photodiary-2-two img{
+    width: 100%;
+}
+.Photodiary-2-two h1{
+    color: #626262;
+    font-size: 30px;
+     font-weight: 400;
+     margin-bottom: 30px;
+     font-family: 'Playfair Display', serif;
+}
+.Photodiary-2-two h5{
+    margin-top: 20px;
+margin-bottom: 20px;
+color: #cdc9bf;
+font-size: 14px;
+text-transform: uppercase;
+font-weight: 400;
+font-family: Ubuntu ;
+}
+.Photodiary-2-two p{
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    color: #cdc9bf;
+    line-height: 1.8;
+}
+/*Photodiary-2 section start*/
+
+/*news letter start*/
+.newsletter{
+    background: #f0f0f0;
+padding: 45px;
+}
+.news{
+    width: 360px;
+    margin: auto;
+    position: relative;
+  
+}
+.news h1{
+    color: #626262;
+    font-size: 30px;
+     font-weight: 400;
+     margin-bottom: 30px;
+     font-family: 'Playfair Display', serif;
+}
+
+.news input{
+margin-top: 50px;
+background: transparent;
+border: none;
+border-bottom: 1px solid;
+width: 360px;
+padding: 10px 0;
+}
+.send{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+/*news letter start*/
+
+/*lifestyle-2 section start*/
+
+.lifestyle-2{
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 80px;
+    display: flex;
+justify-content: space-between;
+}
+.lifestyle-2-one{
+    width: 45%;
+    }
+.lifestyle-2-one img{
+    width: 100%;
+    }
+.lifestyle-2-one h1{
+        color: #626262;
+        font-size: 30px;
+         font-weight: 400;
+         margin-bottom: 30px;
+         font-family: 'Playfair Display', serif;
+    }
+.lifestyle-2-one h5{
+        margin-top: 20px;
+    margin-bottom: 20px;
+    color: #cdc9bf;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: Ubuntu ;
+    }
+.lifestyle-2-one p{
+        font-family: 'Playfair Display', serif;
+        font-size: 14px;
+        color: #cdc9bf;
+        line-height: 1.8;
+    }
+    
+.lifestyle-2-two{
+        width: 45%;
+    
+    }
+    
+.lifestyle-2-two img{
+        width: 100%;
+    }
+.lifestyle-2-two h1{
+        color: #626262;
+        font-size: 30px;
+         font-weight: 400;
+         margin-bottom: 30px;
+         font-family: 'Playfair Display', serif;
+    }
+.lifestyle-2-two h5{
+        margin-top: 20px;
+    margin-bottom: 20px;
+    color: #cdc9bf;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: Ubuntu ;
+    }
+.lifestyle-2-two p{
+        font-family: 'Playfair Display', serif;
+        font-size: 14px;
+        color: #cdc9bf;
+        line-height: 1.8;
+    }
+    /*lifestyle-2 section end*/
+
+/*load more start*/
+
+.load{
+    padding: 100px 0;
+    text-align: center;
+}
+.load-more{
+
+    }
+.load-more  input{
+    padding: 14px 30px;
+    border: none;
+    background: transparent;
+    border: 1px solid;
+    }
+    input[type="button"]{
+        font-size: 14px;
+        color: #626262;
+        font-family: 'Playfair Display', serif;
+    }
+/*load more end*/
+footer {
+    background: #f0f0f0;
+    padding: 40px 0;
+}
+.footer-content{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.terms{
+width: 20%;
+}
+
+.terms ul{
+display: flex;
+justify-content: space-between;
+}
+
+.terms ul li{
+list-style: none;
+}
+
+.terms ul li a{
+    text-decoration: none;
+    color: #626262;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.social-icon{
+    width: 13%;
+}
+.social-icon ul{
+    display: flex;
+justify-content: space-between;
+}
+.social-icon ul li{
+
+    list-style: none;
+}
+.social-icon ul li a{
+    text-decoration: none;
+    color: #626262;
+}
+.social-icon ul li a i{}
